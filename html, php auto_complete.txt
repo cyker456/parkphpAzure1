@@ -1,0 +1,1 @@
+vscode에서 php intelephense를 설치하면 됨
