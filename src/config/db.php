@@ -10,7 +10,7 @@
         또한 이 코드는 dev 버전에서 쓰는 코드이므로 클라우드에 올릴 떄는(ops 버전) 반드시 해당 db에 맞게 설정을 바꿔야 한다.
     */
 
-    // $db = new mysqli("parkdb1.mysql.database.azure.com", "prkt4252@parkdb1", "eu023622!@", "bbs", "3306");
+    // $db = new mysqli("parkdb2.mysql.database.azure.com", "prkt4252", "eu023622!@", "bbs", "3306");
     /*
         이 코드는 ops 버전(클라우드 배포 버전)에서 쓰는 코드이다.
         azure mysql의 서버 이름과 id, password, db, port 설정이다.

@@ -37,15 +37,35 @@ ul li {
 	font-weight: bold;
 	font-size: 17px;
 }
+
 .list-table tbody td{
 	text-align:center;
 	padding:10px 0;
 	border-bottom:1px solid #CCC; height:20px;
 	font-size: 14px 
 }
-.re_ct {font-weight:bold; color:blue;}
 #write_btn {
 	position: absolute;
 	margin-top:20px;
 	right: 0;
 }
+
+#page_num {
+	font-size: 14px;
+	margin-left: 260px;
+	margin-top:30px; 
+}
+#page_num ul li {
+	float: left;
+	margin-left: 10px; 
+	text-align: center;
+}
+.fo_re {
+	font-weight: bold;
+	color:red;
+}
+
+#search_box {
+	margin-left: 300px;
+}
+

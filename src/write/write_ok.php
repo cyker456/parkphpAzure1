@@ -19,7 +19,8 @@
 
     // 만약 넘어온 값들이 Null이 아니라면 이 문장 실행
     if($username && $userpw && $title && $content) {
-        $sql = mq("insert into board(name, pw, title, content, date,file) values ('".$username."','".$userpw."','".$title."','".$content."','".$date."','".$o_name."')");
+        $sql = mq("insert into board(name, pw, title, content, date,file) values 
+        ('".$username."','".$userpw."','".$title."','".$content."','".$date."','".$o_name."')");
         echo "<script>;
         alert('글쓰기 완료되었습니다.');
         location.href='/board';</script>";
