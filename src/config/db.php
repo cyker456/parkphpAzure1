@@ -3,14 +3,14 @@
     header('Content-Type: text/html; charset=utf-8'); // utf8 인코딩
     // 불러오는 데이터가 한글이 섞여 있을 경우 반드시 utf8 인코딩으로 설정해야 한다.
 
-    $db = new mysqli("localhost", "root", "", "bbs", "3307");
+    // $db = new mysqli("localhost", "root", "", "bbs", "3307");
     /*  mysql 객체를 실행하는 코드. 들어가는 코드는 각각 host(db 서버의 주소), 
         db_id, db_password, database_name, db_port에 속한다.
         password가 없을 경우 빈 문자열로, 포트는 MYSQL 기준 기본값 3306(3306일 경우 아예 생략 가능)
         또한 이 코드는 dev 버전에서 쓰는 코드이므로 클라우드에 올릴 떄는(ops 버전) 반드시 해당 db에 맞게 설정을 바꿔야 한다.
     */
 
-    // $db = new mysqli("parkdb2.mysql.database.azure.com", "prkt4252", "eu023622!@", "bbs", "3306");
+    $db = new mysqli("parkdb1.mysql.database.azure.com", "prkt4252", "eu023622!@", "bbs", "3306");
     /*
         이 코드는 ops 버전(클라우드 배포 버전)에서 쓰는 코드이다.
         azure mysql의 서버 이름과 id, password, db, port 설정이다.
